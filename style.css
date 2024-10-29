@@ -1,0 +1,144 @@
+/* Exemplo de estrutura base */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+    }
+    
+    .header-content {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .nav ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+    
+    .nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .notification {
+        position: relative;
+        margin-left: auto;
+    }
+    
+    .notification img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .badge {
+        position: absolute;
+        top: -5px;
+        right: -10px;
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        padding: 2px 6px;
+        font-size: 12px;
+    }
+    
+    .sidebar {
+        position: fixed;
+        left: 0;
+        top: 60px; /* altura do header */
+        width: 200px;
+        background-color: #f4f4f4;
+        height: calc(100% - 60px);
+        padding: 20px;
+    }
+    
+    .sidebar ul {
+        list-style-type: none;
+    }
+    
+    .sidebar ul li {
+        display: flex;
+        align-items: center;
+        margin: 15px 0;
+    }
+    
+    .sidebar ul li img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    
+    .main-content {
+        margin-left: 220px; /* largura da sidebar + espaçamento */
+        padding: 20px;
+        padding-top: 80px; /* espaço para o cabeçalho fixo */
+    }
+    
+    .stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .card {
+        flex: 1 1 calc(25% - 20px); /* 4 cards por linha */
+        background-color: #eaeaea;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    .recent-activities {
+        margin-top: 40px;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    .footer-content nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .footer-content nav ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    
+    .footer-content nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
