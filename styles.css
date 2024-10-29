@@ -43,11 +43,11 @@ header {
     color: #2980b9;
 }
 
-.notification {
+.notificacao {
     position: relative;
 }
 
-.notification-icon {
+.notificacao-icon {
     width: 24px;
     height: 24px;
 }
@@ -97,7 +97,7 @@ header {
     margin-right: 10px;
 }
 
-.main-content {
+.main {
     margin-left: 220px; 
     padding: 20px;
     padding-top: 80px; 
@@ -124,25 +124,25 @@ header {
     transform: translateY(-5px); 
 }
 
-.recent-activities {
+.ratividades {
     margin-top: 40px;
 }
 
-.recent-activities h2 {
+.ratividades h2 {
     margin-bottom: 10px;
 }
 
-.recent-activities ul {
+.ratividades ul {
     list-style-type: none;
 }
 
-.recent-activities ul li {
+.ratividades ul li {
     display: flex;
     align-items: center;
     margin: 10px 0;
 }
 
-.recent-activities ul li img {
+.ratividades ul li img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
